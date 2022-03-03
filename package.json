@@ -1,0 +1,22 @@
+{
+  "name": "typescript-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon"
+  },
+  "author": "DeMineArchiver",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.8.0",
+    "@types/mongoose": "^5.11.97",
+    "discord.js": "^13.6.0",
+    "dot-env": "^0.0.1",
+    "dotenv": "^14.2.0",
+    "glob": "^7.2.0",
+    "mongoose": "^6.2.3"
+  },
+  "repository": {"url": "https://github.com/DeMineArchiver/TypescriptBot", "directory": "*"}
+}
